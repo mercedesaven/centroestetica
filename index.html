@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Centro de Salud Estética</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Nunito:400,400i,700,700i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<section>
+			<div class="menu"> 
+				<img src="img/logo2.png">
+				<nav>
+					<ul class="listanav">
+						<li> <a href="inicio.html"> Inicio </a></li>
+						<li> <a href="equipo.html"> Equipo </a></li>
+						<li> <a href="tratamientos.html">Tratamientos </a></li>
+						<li> <a href="contacto.html">Contacto </a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+	</header>
+	<section class="inicio"> <!--inicio-->
+
+		<div class="titulo">
+			<h1> Centro de Salud Estética Barrio Norte</h1>
+		</div>
+	</section>
+	<section class="equipo">
+		<article class="equipostaff">
+			<img src="img/equipo.jpg">
+			<div class="parrafo">
+				<h2>Nuestro equipo</h2>
+					<p>Profesionales con más de 10 años de experiencia en el cuidado de la salud estética de mujeres y hombres. </p>
+					<p> Brindamos una asesoría integral para el ciudado de la salud del paciente, desde el ingreso a la consulta hasta su recuperación. </p>
+			</div>
+		</article>
+	</section>
+	
+	<section class="servicios"> 
+		<h2>Tratamientos</h2>
+		<div class="tratamientos">
+		
+		
+		<article>
+			<a class="vermas" href="cirugiaplastica.html">
+			<img class="img" src="img/cirugiaplastica.jpg"> 
+			<p>Cirugía Plástica</p>
+			</a>
+		</article>
+		<article>
+			<a class="vermas" href="cirugiareconstructiva.html">
+			<img class="img" src="img/cirugia-reconstructiva3.jpg">
+			<p>Cirugía Reconstructiva</p>
+			</a>
+		</article>
+		<article>
+			<a class="vermas" href="medicinaestetica.html">
+			<img class="img" src="img/medicinaestetica.jpg">
+			<p>Medicina Estética</p>
+			</a>
+		</article>		
+		</div>
+	</section>
+	
+	<section class="contacto"> 
+		<article class="contactanos">
+
+			<h2>Contactanos</h2>
+		
+		<div> <form action="enviar" method="POST">
+			<label for="name">Nombre</label>
+			<input type="text" name="name" placeholder="Nombre" required>
+			
+			<label for="correo">E-mail</label>
+			<input type="e-mail" name="correo" placeholder="E-mail" required>
+			
+			<label for="tel">Teléfono</label>
+			<input type="tel" name="tel" placeholder="Teléfono" required>
+			
+			<label for="nacimiento">Fecha de Nacimiento</label>
+			<input type="date" name="nacimiento" placeholder="Fecha de nacimiento">
+			
+			<label for="contacto">¿Cómo querés que te contactemos?</label>
+			<input type="radio" name="contacto" value="e-mail">E-mail
+			<input type="radio" name="contacto" value="telefono">Teléfono
+			
+			<label for="comment">Comentario</label>
+			<textarea class="comment" name="comment"></textarea>
+			
+			<input class="enviar" type="submit" value="Enviar">
+		</form>
+		</div>
+		</article>
+		<article class="mapa">
+			<div>
+				<h2> ¿Dónde estamos?</h2>
+			
+			 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.328073834943!2d-58.39551458525195!3d-34.595864680461524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabde1df01bd%3A0x59fc6e926c4505ee!2sAv.+Santa+Fe+%26+Av.+Callao%2C+C1122+CABA!5e0!3m2!1ses-419!2sar!4v1503852899159" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			 </div>
+		</article>
+	</section>
+	<footer>
+		<section>
+	<footer>
+		<div class="logo"> <img src="img/logo2.png"></div>
+		<ul class="social">
+			<li><a href="http://www.facebook.com"></a><span class="ion-social-facebook facebook"></span></li>
+			<li><a href="http://www.twitter.com"></a><span class="ion-social-twitter twitter"></span></li>
+			<li><a href="http://www.instagram.com"></a><span class="ion-social-instagram instagram"></span></li>
+		</ul>
+	</footer>
+		</section>
+	</footer>
+
+</body>
+</html>

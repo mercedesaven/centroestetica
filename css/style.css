@@ -1,0 +1,290 @@
+section {
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+header {
+	background-color: #FFFFFF;
+	padding: 10px;
+
+
+}
+
+.listanav{
+	display: flex;
+	list-style: none;
+	font-family: 'Nunito', sans-serif;
+
+
+	}
+	
+.listanav li{
+	text-decoration: none;
+	margin: 0 10px;
+	padding-top: 5%;
+
+	
+}
+.listanav a{
+	text-decoration: none;
+	color: black;
+
+	font-size: 20px;
+
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.menu img{
+	width: 70px;
+	height: 70px;
+}
+
+@media (max-width: 800px){
+	.menu{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.listanav{
+		justify-content: center;		
+	}
+}
+
+.inicio {
+	background-image: url("http://letsbonus4.statics.download/products/262000/262173/14013635464650-0-680x276.jpg");
+	padding: 5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.titulo{
+	display:flex;
+	padding: 50px;
+	justify-content: flex-end;
+}
+.titulo h1 { 
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	margin-left: 500px;
+	text-align: right;
+	color:#FA8470;
+	
+}
+
+@media (max-width: 800px){
+	
+
+	.titulo h1{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		font-size: 50px;
+		padding: 0;
+		margin:auto;
+	}
+
+}
+
+.equipo {
+	background-color: #F3EFF5;
+	padding: 5%;
+}
+.equipostaff { 
+	
+	display:flex;
+	justify-content: space-between;
+
+ }
+ .equipostaff img{
+ 	width: 400px;
+ 	height: 300px;
+
+ }
+ .parrafo h2{
+ 	font-family: 'Dancing Script', cursive;
+	 font-size: 40px;
+	 text-align: center;
+	 color:#FA8470;
+	 padding-bottom: 30px;
+	 }
+
+ .parrafo { 
+	 font-family: 'Nunito', sans-serif;
+	 font-size: 20px;
+  }
+.equipostaff p {
+	text-align: center;
+	padding: 10px 0 0 30px;
+}
+
+@media (max-width: 800px){
+	.equipostaff{
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	.parrafo {
+		padding-top: 10px;
+	}
+
+
+}
+
+
+.servicios h2{
+	display: flex;	
+	font-family: 'Dancing Script', cursive;
+	 font-size: 60px;
+	 justify-content: center;
+	 color:#FA8470;
+	 padding-top: 50px;
+}
+.tratamientos{
+	display: flex;
+	justify-content: center;
+	padding: 70px;
+}
+
+.tatamientos img{
+	width: 200px;
+	height: 200px;
+	transform: scale(1.5);
+	
+}
+
+.tratamientos a {
+	text-decoration: none;
+
+	}
+
+.img:hover {
+	transform: scale(1.1);
+	transition:1s;
+}
+.tratamientos article{
+	margin: 40px;
+}
+
+.tratamientos p{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font-family: 'Dancing Script', cursive;
+	color:#3CE8CC;
+	font-size: 30px;
+	text-align: center;
+
+}
+@media (max-width: 800px){
+	.tratamientos{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.tratamientos article{
+		margin: auto;
+	}
+
+}
+
+.contacto {
+	display:flex;
+	justify-content: space-evenly;
+	background-color: #F3EFF5;
+	padding: 5%;
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+.comment{
+	width: 300px;
+	height: 50px;
+}
+.enviar {
+  display: block;
+  text-decoration: none;
+  margin: 1em 0;
+  font-style: 'Nunito', sans-serif;
+  width: 300px;
+  height: 50px;
+
+}
+
+.enviar:hover{
+	background-color:#787776;
+}
+
+.contactanos h2{
+	padding: 10px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color:#FA8470;
+	font-size: 30px;
+	
+
+
+}
+.contactanos div{
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	
+}
+
+.mapa h2 {
+	padding: 10px 0 20px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color:#FA8470;
+	font-size: 30px;
+	
+
+	
+}
+@media (max-width: 800px){
+	.contacto{
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	
+
+}
+footer {
+	background-color: #FFFFFF;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.logo{
+	display: flex;
+	
+}
+.logo img{
+	width: 30px;
+	height: 30px;
+}
+.social{
+	display: flex;
+	
+}
+
+.social li{
+	margin: 10px 10px;
+
+}
+.social span{
+	font-size:20px; 
+	text-align: center;
+}
